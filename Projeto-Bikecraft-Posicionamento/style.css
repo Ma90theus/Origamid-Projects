@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+    margin-top: 60px;
+}
+h1,h2,h3,p,a{
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+/*.itens a{
+
+    margin-left: 20px;
+    background-color:#ffff;
+    padding: 15px;
+    color: black;
+    border-radius: 4px;
+}*/
+.itens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items:center;
+    gap:20px;
+}
+.itens a{
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*margin:100px;*/
+    max-width: 1000px;
+    
+}
+.c1{
+    background-color: #ffffff;
+    text-align: right;
+    padding: 40px;
+    display: grid;
+    align-content: center;
+    gap:20px;
+    justify-items: end;
+}
+/*
+.c1 h1{
+    text-align: right;
+}
+*/
+.c1 a{
+    /*max-width: 100%;
+    max-height: 100%;
+    */
+    padding: 15px 30px;
+    background-color: #e21;
+    /*margin-left: 330px;*/
+    border-radius: 4px;
+    color: white;
+}
+.c1 p{
+    font-size:20px;
+    text-align: right;
+}
+.c3{
+    /*Preciso criar com o mesmo padding para manter o equilibrio*/
+    padding: 40px;
+    color: #c6c6c6;
+    font-size:64px;
+    text-align: right;
+    align-self: center;
+}
+.produto{
+    background-color: #ffffff;
+    padding: 40px;
+    font-size:20px;
+}
+.item-produto{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+.item-produto p{
+    grid-column: 2;
+}
+.rodape{
+    padding: 40px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
